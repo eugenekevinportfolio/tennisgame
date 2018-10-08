@@ -1,0 +1,60 @@
+body {
+  font-family: "Rubik";
+  letter-spacing: 0.3px;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+.matchpoint {
+  margin: 0;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+p {
+  font-size: 25px;
+  text-align: center;
+}
+
+.game {
+  display: flex;
+}
+
+.player {
+  width: 50%;
+}
+
+button {
+  display: block;
+  height: 40px;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+  margin: auto;
+  font-family: "Rubik";
+  font-size: 18px;
+  letter-spacing: 0.3px;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+button:hover {
+  opacity: 0.6;
+}
+
+button:focus {
+  outline:0;
+}
+
+.gamewon {
+  width: 100%;
+}
